@@ -1,12 +1,13 @@
 {
-  "Version": "1.6",
+  "Version": "1.10",
   "Languages": {
     "RU": "🇷🇺 Русский",
     "US": "🇺🇸 English",
     "DE": "🇩🇪 German",
     "CH": "🇨🇳 Chinese S.",
     "ZH": "🇨🇳 Chinese T.",
-    "DK": "🇩🇰 Danish"
+    "DK": "🇩🇰 Danish",
+    "FR": "🇫🇷 Français"
   },
   "Strings": {
     "menu.settings": {
@@ -15,15 +16,17 @@
       "DE": "Einstellungen",
       "CH": "设定",
       "ZH": "設定",
-      "DK": "Indstillinger"
+      "DK": "Indstillinger",
+      "FR": "Options"
     },
     "settings.language": {
-      "US": "Language",
-      "RU": "Язык",
+      "US": "Shortcut Language",
+      "RU": "Язык команды",
       "DE": "Sprache",
       "CH": "语言",
       "ZH": "語言",
-      "DK": "Sprog"
+      "DK": "Sprog",
+      "FR": "Langue du raccourci"
     },
     "language.help": {
       "US": "Help Us Translate",
@@ -31,7 +34,8 @@
       "DE": "Hilf uns übersetzen",
       "CH": "帮助翻译",
       "ZH": "幫助翻譯",
-      "DK": "Hjælp os med at oversætte"
+      "DK": "Hjælp os med at oversætte",
+      "FR": "Aidez-nous à traduire !"
     },
     "settings.credits": {
       "US": "Credits",
@@ -39,31 +43,62 @@
       "DE": "Danke an",
       "CH": "感谢",
       "ZH": "感謝",
-      "DK": "Credits"
+      "DK": "Credits",
+      "FR": "Merci !"
     },
     "settings.feedback": {
       "US": "Feedback",
       "RU": "Обратная связь",
       "DE": "Feedback",
-      "CH": "",
-      "ZH": "",
-      "DK": "Feedback"
+      "CH": "回报问题",
+      "ZH": "回報問題",
+      "DK": "Feedback",
+      "FR": "Commentaires"
+    },
+    "menu.back": {
+      "US": "Back to Menu",
+      "RU": "В главное меню",
+      "DE": "",
+      "CH": "回到目绿",
+      "ZH": "回到目綠",
+      "DK": "",
+      "FR": "Retour au menu"
+    },
+    "menu.prev": {
+      "US": "Back",
+      "RU": "Назад",
+      "DE": "",
+      "CH": "返回",
+      "ZH": "返回",
+      "DK": "",
+      "FR": "Retour"
+    },
+    "menu.next": {
+      "US": "Next Page",
+      "RU": "След. страница",
+      "DE": "Nächste Seite",
+      "CH": "下一页",
+      "ZH": "下一頁",
+      "DK": "",
+      "FR": "Page suivante"
     },
     "menu.available": {
       "US": "Available Updates",
       "RU": "Доступные обновления",
       "DE": "",
-      "CH": "",
-      "ZH": "",
-      "DK": "Tilgængelige Opdateringer"
+      "CH": "可用的更新",
+      "ZH": "可用的更新",
+      "DK": "Tilgængelige Opdateringer",
+      "FR": "Mises à jour disponibles"
     },
     "menu.supported": {
       "US": "Supported Shortcuts",
       "RU": "Поддерживаемые команды",
       "DE": "",
-      "CH": "",
-      "ZH": "",
-      "DK": ""
+      "CH": "支持的捷径",
+      "ZH": "支持的捷徑",
+      "DK": "",
+      "FR": "Raccourcis supportés"
     },
     "changelog.update": {
       "US": "An update is available!",
@@ -71,7 +106,8 @@
       "DE": "Eine neue Version ist verfügbar!",
       "CH": "有可用更新",
       "ZH": "有可用更新",
-      "DK": "En opdatering er tilgængelig!"
+      "DK": "En opdatering er tilgængelig!",
+      "FR": "Une mise à jour est disponible !"
     },
     "changelog.noupdate": {
       "US": "No Updates!",
@@ -79,7 +115,8 @@
       "DE": "Keine neue Version verfügbar!",
       "CH": "没有可用更新",
       "ZH": "沒有可用更新",
-      "DK": "Ingen opdateringer!"
+      "DK": "Ingen opdateringer!",
+      "FR": "Aucune mise à jour !"
     },
     "changelog.name": {
       "US": "Name",
@@ -87,7 +124,8 @@
       "DE": "Name",
       "CH": "名称",
       "ZH": "名稱",
-      "DK": "Navn"
+      "DK": "Navn",
+      "FR": "Nom"
     },
     "changelog.version": {
       "US": "Version",
@@ -95,7 +133,8 @@
       "DE": "Version",
       "CH": "版本",
       "ZH": "版本",
-      "DK": "Version"
+      "DK": "Version",
+      "FR": "Version"
     },
     "changelog.changes": {
       "US": "Changes",
@@ -103,29 +142,42 @@
       "DE": "Änderungen",
       "CH": "更改",
       "ZH": "更改",
-      "DK": "Ændringer"
+      "DK": "Ændringer",
+      "FR": "Modifications"
     },
     "changelog.import": {
       "US": "Update",
       "RU": "Обновить",
       "DE": "",
-      "CH": "",
-      "ZH": "",
-      "DK": "Opdater"
+      "CH": "更新",
+      "ZH": "更新",
+      "DK": "Opdater",
+      "FR": "Mettre à jour"
     },
     "info.noconnection": {
       "US": "No Internet Connection!",
       "RU": "Нет подключения к интернету!",
       "DE": "",
-      "CH": "",
-      "ZH": "",
-      "DK": ""
+      "CH": "没有网路连接",
+      "ZH": "沒有網路連接",
+      "DK": "",
+      "FR": "Aucune connexion internet !"
+    },
+    "settings.items": {
+      "US": "Apps Per Page",
+      "RU": "Кол-во приложений",
+      "DE": "",
+      "CH": "每页捷径数目",
+      "ZH": "每頁捷徑數目",
+      "DK": "",
+      "FR": "Applications par page"
     }
   },
   "Credits": {
     "xMrVizzy (Made Shortcut)": "https://twitter.com/xmrvizzy",
     "Daniel Bahl (Made ShareShortcuts)": "https://twitter.com/danielbahl",
     "hEv@Der (German Language)": "https://twitter.com/hEvDer1",
-    "XPGamingYT (Chinese Language)": "https://www.reddit.com/u/XPGamingYT"
+    "XPGamingYT (Chinese Language)": "https://www.reddit.com/u/XPGamingYT",
+    "TortueGeniale (French Language)": "https://twitter.com/TortueGeniale"
   }
 }
